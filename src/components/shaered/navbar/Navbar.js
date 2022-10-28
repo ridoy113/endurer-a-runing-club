@@ -1,11 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import logo from './navImage/logo.png'
+import { AiOutlineShoppingCart } from 'react-icons/ai'
+import { AiOutlineSearch } from 'react-icons/ai'
+
 
 
 const Navbar = () => {
     return (
         <div>
-            <div className="navbar p-[2rem]">
+            <div className="navbar bg-zinc-500 p-[1.4rem]">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -16,7 +20,7 @@ const Navbar = () => {
                             <li tabIndex={0}>
                                 <a className="justify-between">
                                     Parent
-                                    <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+                                    <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24" ><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
                                 </a>
                                 <ul className="p-2">
                                     <li><a>Submenu 1</a></li>
@@ -26,26 +30,32 @@ const Navbar = () => {
                             <li><a>Item 3</a></li>
                         </ul>
                     </div>
-                    <img className="btn btn-link" src={logo} alt="" />
+                    <img className="w-auto md:w-[178px] lg:w-[178px] lg:ml-8" src={logo} alt="" />
                 </div>
-                <div className="navbar-center hidden lg:flex">
+
+
+
+                <div className="dropdown dropdown-hover navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal p-0">
-                        <li><a>Item 1</a></li>
+                        <li><Link className='text-white hover:text-[#FA471C] font-bold' to="/">HOME</Link></li>
                         <li tabIndex={0}>
                             <a>
-                                Parent
-                                <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg>
+                                <span className='text-white hover:text-[rgb(250,71,28)] font-bold'>PAGES</span>
                             </a>
-                            <ul className="p-2">
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
+                            <ul className="p-2 bg-black border-t-2 border-[#FA471C] p-[1.5rem] pr-[4.4rem]">
+                                <li>
+                                    <Link className='hover:text-white' to="">About Us</Link>
+                                    <Link className='hover:text-white' to="">About Me</Link>
+                                    <Link className='hover:text-white' to="">Our Process</Link>
+                                    <Link className='hover:text-white' to="">Contact Us</Link>
+                                </li>
                             </ul>
                         </li>
-                        <li><a>Item 3</a></li>
                     </ul>
                 </div>
-                <div className="navbar-end">
-                    <a className="btn">Get started</a>
+                <div className="navbar-end mr-[2rem]">
+                    <a className='text-white text-2xl lg:text-3xl mx-[0.4rem] lg:mx-[0.7rem] cursor-cell	'><AiOutlineShoppingCart /></a>
+                    <a className='text-white text-2xl lg:text-3xl mx-[0.4rem] lg:mx-[0.7rem] cursor-pointer'><AiOutlineSearch /></a>
                 </div>
             </div>
         </div>
