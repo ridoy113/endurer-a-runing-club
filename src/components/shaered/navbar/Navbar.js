@@ -40,7 +40,7 @@ const Navbar = () => {
                                 </ul>
                             </li>
 
-                            
+
 
                         </ul>
                     </div>
@@ -68,7 +68,7 @@ const Navbar = () => {
                             </ul>
                         </li>
 
-                        
+
                     </ul>
                 </div>
                 <div className="navbar-end mr-[2rem]">
