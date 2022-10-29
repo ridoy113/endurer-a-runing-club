@@ -1,50 +1,25 @@
-#app {
-    height: 100%
+.text {
+    margin-left: 50%;
+    transform: translateX(-200%);
+    opacity: 0;
+    animation: slide-in-anim 1.5s ease-out forwards;
 }
 
-html,
-body {
-    position: relative;
-    height: 100%;
-}
+@keyframes slide-in-anim {
+    20% {
+        opacity: 0;
+    }
 
-body {
-    background: #eee;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    color: #000;
-    margin: 0;
-    padding: 0;
-}
+    60% {
+        transform: translateX(-45%);
+    }
 
-.swiper {
-    width: 100%;
-    height: 100%;
-}
+    75% {
+        transform: translateX(-52%);
+    }
 
-.swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-}
-
-.swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    100% {
+        opacity: 1;
+        transform: translateX(-50%);
+    }
 }

@@ -71,6 +71,8 @@ const Navbar = () => {
 
                     </ul>
                 </div>
+
+                
                 <div className="navbar-end mr-[2rem]">
                     <a className='text-white text-2xl lg:text-3xl mx-[0.4rem] lg:mx-[0.7rem] cursor-cell	'><AiOutlineShoppingCart /></a>
                     <a className='text-white text-2xl lg:text-3xl mx-[0.4rem] lg:mx-[0.7rem] cursor-pointer'><AiOutlineSearch /></a>
