@@ -31,7 +31,9 @@ const HomeHeader = () => {
 
                                 STOP</h1>
                             <p className='h-[6px] w-[15rem] bg-white my-[1.8rem]'></p>
-                            <button className='w-[11.5rem] h-[3rem] bg-white text-black font-bold'>BUY THEME</button>
+                            <button className='border-solid border-[1px] border-white w-[12rem] h-[3.5rem] hover:w-[12.5rem] hover:h-[4rem] ease-in-out duration-300'>
+                                <button className='w-[11.5rem] h-[3rem] bg-white text-black font-bold'>BUY THEME</button>
+                            </button>
                         </div>
                     </div>
                 </SwiperSlide>
