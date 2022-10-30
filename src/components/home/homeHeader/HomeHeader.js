@@ -31,7 +31,7 @@ const HomeHeader = () => {
 
                                 STOP</h1>
                             <div className='flex justify-center'>
-                                <p className='h-[6px] w-[15rem] bg-white my-[1.8rem] '></p>
+                                <p className='h-[6px] w-[18rem] bg-white my-[1.8rem] '></p>
                             </div>
                             <button className='border-solid border-[1px] border-white w-[12rem] h-[3.5rem] hover:w-[12.5rem] hover:h-[4rem] ease-in-out duration-300'>
                                 <button className='w-[11.5rem] h-[3rem] bg-white text-black font-bold'>BUY THEME</button>
@@ -42,7 +42,26 @@ const HomeHeader = () => {
 
 
                 <SwiperSlide>
+                    <div className=" hero min-h-screen" style={{ backgroundImage: `url(${hImg2})` }}>
+                        <div className="text text-center">
+                            <h1 className='text-[50px] lg:text-[90px] font-bold text-white leading-[3.5rem] lg:leading-[5.4rem]'>
+                                WE
 
+                                <div className='bg-no-repeat bg-center' style={{ backgroundImage: `url(${hText})` }}>
+                                    <div className="text-[#FA471C]">
+                                        RUN
+                                    </div>
+                                </div>
+
+                                WE BECOME</h1>
+                            <div className='flex justify-center'>
+                                <p className='h-[6px] w-[18rem] bg-white my-[1.8rem] '></p>
+                            </div>
+                            <button className='border-solid border-[1px] border-white w-[12rem] h-[3.5rem] hover:w-[12.5rem] hover:h-[4rem] ease-in-out duration-300'>
+                                <button className='w-[11.5rem] h-[3rem] bg-white text-black font-bold'>BUY THEME</button>
+                            </button>
+                        </div>
+                    </div>
                 </SwiperSlide>
 
 
