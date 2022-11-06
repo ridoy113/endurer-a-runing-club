@@ -19,20 +19,20 @@ const Check = () => {
 
             <div>
                 <div class="grid grid-cols-1 lg:grid lg:grid-cols-4 gap-6 text-center mt-[2rem]">
-                    <div class="">
-                        <img src={check1} alt="" />
+                    <div class="hover:overflow-hidden">
+                        <img className='hover:origin-center hover:rotate-45 ease-in duration-500 cursor-pointer bg-opacity-100' src={check1} alt="" />
                     </div>
 
-                    <div class="lg:row-span-3 lg:col-span-2">
-                        <img src={check3} alt="" />
+                    <div class="lg:row-span-3 lg:col-span-2 hover:overflow-hidden">
+                        <img className='hover:origin-center hover:rotate-45 ease-in duration-500 cursor-pointer' src={check3} alt="" />
                     </div>
 
-                    <div class="lg:row-span-3">
-                        <img className='h-full lg:h-[34.1rem]' src={check4} alt="" />
+                    <div class="lg:row-span-3 hover:overflow-hidden">
+                        <img className='h-full lg:h-[34.1rem] hover:origin-center hover:rotate-[25deg] ease-in duration-500 cursor-pointer' src={check4} alt="" />
                     </div>
 
-                    <div class="">
-                        <img src={check2} alt="" />
+                    <div class="hover:overflow-hidden">
+                        <img className='hover:origin-center hover:rotate-45 ease-in duration-500 cursor-pointer' src={check2} alt="" />
                     </div>
                 </div>
 
