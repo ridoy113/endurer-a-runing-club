@@ -63,7 +63,7 @@ const Testimonials = () => {
                                     <div className="flex justify-center">
                                         <p className="bg-[#FA471C] h-[0.2rem] w-[5rem] mt-[0.3rem] mb-[0.5rem] lg:mb-[0.9rem]"></p>
                                     </div>
-                                    <p className="text-white text-[1.2rem] font-medium tracking-wider mt-[1rem]">Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla cons massa quis eni. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo.</p>
+                                    <p className="text-white text-[1.2rem] font-medium tracking-wider mt-[1rem]">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium eius aliquid non magnam soluta perspiciatis? Soluta provident neque recusandae adipisci.</p>
 
                                     <h6 className="text-2xl font-semibold mt-[3rem]">MEHEDI MIRAZ</h6>
                                 </div>
@@ -78,9 +78,9 @@ const Testimonials = () => {
                                     <div className="flex justify-center">
                                         <p className="bg-[#FA471C] h-[0.2rem] w-[5rem] mt-[0.3rem] mb-[0.5rem] lg:mb-[0.9rem]"></p>
                                     </div>
-                                    <p className="text-white text-[1.2rem] font-medium tracking-wider mt-[1rem]">Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla cons massa quis eni. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo.</p>
+                                    <p className="text-white text-[1.2rem] font-medium tracking-wider mt-[1rem]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus provident ipsum maxime earum veniam neque, quia commodi temporibus labore rerum pariatur et vitae nulla culpa!</p>
 
-                                    <h6 className="text-2xl font-semibold mt-[3rem]">RONY MUNSI</h6>
+                                    <h6 className="text-2xl font-semibold mt-[3rem]">IFTAKHAR AHMED</h6>
                                 </div>
                             </SwiperSlide>
 
