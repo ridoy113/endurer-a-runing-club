@@ -11,11 +11,13 @@ import { GiCrossMark } from "react-icons/gi";
 
 const Testimonials = () => {
     return (
-        <div>
+        <>
             <div className="hero min-h-screen" style={{ backgroundImage: `url(${testImg})` }}>
-                <div className="hero-overlay bg-opacity-40"></div>
+                <div className="hero-overlay bg-opacity-60"></div>
                 <div className="hero-content text-center text-neutral-content">
                     <div className="max-w-md">
+
+
 
 
 
@@ -35,15 +37,19 @@ const Testimonials = () => {
                             className="mySwiper"
                         >
 
-                            <SwiperSlide>
-                                <div className="flex justify-center text-[#FA471C]">
+                            <SwiperSlide className="p-[3rem]">
+                                <div className="flex justify-center text-[#FA471C] text-4xl md:text-5xl lg:text-6xl mb-[0.5rem] lg:mb-[0.9rem]">
                                     <GiCrossMark />
                                 </div>
+
                                 <div>
-                                    <h1>TESTIMONIALS.</h1>
-                                    <div><p></p></div>
-                                    <p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla cons massa quis eni. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo.</p>
-                                    <h6>RONY MUNSI</h6>
+                                    <h1 className="text-white text-[2rem] lg:text-[2.8rem] font-bold">TESTIMONIALS.</h1>
+                                    <div className="flex justify-center">
+                                        <p className="bg-[#FA471C] h-[0.2rem] w-[5rem] mt-[0.3rem] mb-[0.5rem] lg:mb-[0.9rem]"></p>
+                                    </div>
+                                    <p className="text-white text-[1.2rem] font-medium tracking-wider mt-[1rem]">Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla cons massa quis eni. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo.</p>
+
+                                    <h6 className="text-2xl font-semibold mt-[3rem]">RONY MUNSI</h6>
                                 </div>
                             </SwiperSlide>
 
@@ -64,10 +70,11 @@ const Testimonials = () => {
 
 
 
+
                     </div>
                 </div>
             </div>
-        </div>
+        </>
     );
 };
 
