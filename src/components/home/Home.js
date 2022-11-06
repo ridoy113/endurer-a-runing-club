@@ -2,6 +2,7 @@ import React from 'react';
 import Catagory from './homeComponents/Catagory';
 import Counter from './homeComponents/Counter';
 import Difference from './homeComponents/Difference';
+import Testimonials from './homeComponents/testimonials/Testimonials';
 import HomeHeader from './homeHeader/HomeHeader';
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
             <Difference />
             <Catagory />
             <Counter />
+            <Testimonials />
         </div>
     );
 };
