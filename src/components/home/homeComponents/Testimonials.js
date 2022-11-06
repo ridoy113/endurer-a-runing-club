@@ -5,6 +5,8 @@ import "swiper/css/effect-cube";
 import "swiper/css/pagination";
 import { EffectCube, Pagination } from "swiper";
 import testImg from '../assets/h1-parallax-2.jpg'
+import { GiCrossMark } from "react-icons/gi";
+
 
 
 const Testimonials = () => {
@@ -34,7 +36,15 @@ const Testimonials = () => {
                         >
 
                             <SwiperSlide>
-                                <h1>1</h1>
+                                <div className="flex justify-center text-[#FA471C]">
+                                    <GiCrossMark />
+                                </div>
+                                <div>
+                                    <h1>TESTIMONIALS.</h1>
+                                    <div><p></p></div>
+                                    <p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla cons massa quis eni. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo.</p>
+                                    <h6>RONY MUNSI</h6>
+                                </div>
                             </SwiperSlide>
 
 
