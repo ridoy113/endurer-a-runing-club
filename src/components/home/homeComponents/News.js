@@ -2,8 +2,23 @@ import React from 'react';
 
 const News = () => {
     return (
-        <div>
-            
+        <div className='px-[3rem] lg:px-[7.5rem]'>
+            <div className='text-center text-4xl font-bold text-black'>
+                <p>OUR NEWS.</p>
+                <div className='flex justify-center'>
+                    <p className='h-[0.2rem] w-[5rem] bg-[#FA471C] mt-[0.8rem] mb-[2rem]'></p>
+                </div>
+            </div>
+
+
+
+            <div className='grid grid-cols-1 lg:grid lg:grid-cols-3'>
+                <div>1</div>
+                <div>1</div>
+                <div>1</div>
+            </div>
+
+
         </div>
     );
 };
