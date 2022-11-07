@@ -19,15 +19,19 @@ const News = () => {
             <div className='grid grid-cols-1 lg:grid lg:grid-cols-3 gap-8 mt-[2rem] lg:mt-[4rem]'>
 
                 <div>
-                    <p>News / 07.03.2018</p>
-                    <h1>WIN FROM WITHIN</h1>
-                    <p>Quisque rutrum, aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi, nam eget dui. Etiam rhoncus maecenas
+                    <p className='text-zinc-500 tracking-wider mb-[0.3rem]'>News / 07.03.2018</p>
+                    <h1 className='text-black text-[1.7rem] font-bold mb-[1.2rem]'>WIN FROM WITHIN</h1>
+                    <p className='text-zinc-500 leading-7 tracking-wide'>Quisque rutrum, aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi, nam eget dui. Etiam rhoncus maecenas
                     </p>
-                    <h4>READ MORE <p><AiOutlineArrowRight /></p></h4>
+
+                    <div className='flex text-black hover:text-[#F9461B] cursor-pointer ease-in duration-300 mt-[1.3rem]'>
+                        <h4 className='font-bold tracking-wider mr-[0.3rem] hover:mr-[0.6rem] ease-in duration-300'>READ MORE</h4>
+                        <p className='text-2xl'><AiOutlineArrowRight /></p>
+                    </div>
+
                 </div>
 
-                <div>1</div>
-                <div>1</div>
+                
             </div>
 
 
