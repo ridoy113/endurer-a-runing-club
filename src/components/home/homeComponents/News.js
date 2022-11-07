@@ -1,4 +1,8 @@
 import React from 'react';
+import { AiOutlineArrowRight } from 'react-icons/ai'
+
+
+
 
 const News = () => {
     return (
@@ -12,10 +16,14 @@ const News = () => {
 
 
 
-            <div className='grid grid-cols-1 lg:grid lg:grid-cols-3 text-center gap-8 mt-[2rem] lg:mt-[4rem]'>
-                
-                <div>
+            <div className='grid grid-cols-1 lg:grid lg:grid-cols-3 gap-8 mt-[2rem] lg:mt-[4rem]'>
 
+                <div>
+                    <p>News / 07.03.2018</p>
+                    <h1>WIN FROM WITHIN</h1>
+                    <p>Quisque rutrum, aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi, nam eget dui. Etiam rhoncus maecenas
+                    </p>
+                    <h4>READ MORE <p><AiOutlineArrowRight /></p></h4>
                 </div>
 
                 <div>1</div>
