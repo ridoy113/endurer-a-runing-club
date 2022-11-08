@@ -8,6 +8,7 @@ import News from './homeComponents/News';
 import Submit from './homeComponents/Submit';
 import Testimonials from './homeComponents/Testimonials';
 import HomeHeader from './homeHeader/HomeHeader';
+import Footer from '../shaered/footer/Footer';
 
 const Home = () => {
     return (
@@ -21,6 +22,7 @@ const Home = () => {
             <News />
             <MedalLogo />
             <Submit />
+            <Footer/>
         </div>
     );
 };
