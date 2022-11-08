@@ -2,13 +2,14 @@ import React from 'react';
 import footerLogo from './assets/Logo-1x1-white-1.png';
 import footerMap from './assets/footer-map.png';
 import { TbPoint } from 'react-icons/tb';
-import { GrTwitter } from 'react-icons/gr';
+import { GrTwitter, GrYoutube } from 'react-icons/gr';
+import { ImFacebook } from 'react-icons/im';
 
 
 
 const Footer = () => {
     return (
-        <div>
+        <div className='bg-black'>
             <div className='bg-black py-[3rem] lg:py-[5rem] px-[2.5rem] lg:px-[7.5rem] grid grid-cols-1 lg:grid lg:grid-cols-4 gap-10'>
 
                 <div>
@@ -80,6 +81,29 @@ const Footer = () => {
                 </div>
 
             </div>
+            <hr />
+
+            <div className='py-[1.5rem] px-[2.5rem] grid grid-cols-1 lg:grid lg:grid-cols-3 gap-10 text-center'>
+
+                <div className='flex justify-center'>
+                    <img src={footerLogo} alt="" />
+                </div>
+
+                <div className='text-white'>© 2021 Qode Interactive, All Rights Reserved</div>
+
+                <div className='flex justify-center'>
+                    <h1 className='text-zinc-500 font-bold mr-[1.5rem]'>FOLLOW US</h1>
+
+                    <div className='mt-[3px] flex justify-center'>
+                        <a className='text-white mr-[0.5rem]' href="facebook.com"><ImFacebook /></a>
+                        <a className='text-white mr-[0.5rem]' href="youtube.com"><GrYoutube /></a>
+                        <a className='text-white mr-[0.5rem]' href="twitter.com"><GrTwitter /></a>
+                    </div>
+
+                </div>
+
+            </div>
+
         </div>
     );
 };
