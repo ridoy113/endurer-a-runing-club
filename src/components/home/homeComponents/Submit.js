@@ -4,7 +4,7 @@ const Submit = () => {
     return (
         <div>
             <div className='bg-[#FA471C] py-[3rem] lg:py-[5rem] px-[3rem] lg:px-[7.5rem] text-center'>
-                <h1 className='text-[#fff] text-2xl font-semibold tracking-wide'>SIGN UP FOR OUR WEEKLY NEWSLETTER</h1>
+                <h1 className='text-[#fff] text-2xl font-semibold tracking-wide mt-[2rem]'>SIGN UP FOR OUR WEEKLY NEWSLETTER</h1>
 
                 <div className='flex-none lg:flex justify-center my-[2rem]'>
                     <div>
