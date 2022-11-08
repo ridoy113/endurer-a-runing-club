@@ -9,8 +9,8 @@ import { ImFacebook } from 'react-icons/im';
 
 const Footer = () => {
     return (
-        <div className='bg-black'>
-            <div className='bg-black py-[3rem] lg:py-[5rem] px-[2.5rem] lg:px-[7.5rem] grid grid-cols-1 lg:grid lg:grid-cols-4 gap-10'>
+        <div className='bg-[#1B1A18]'>
+            <div className='py-[3rem] lg:py-[5rem] px-[2.5rem] lg:px-[7.5rem] grid grid-cols-1 lg:grid lg:grid-cols-4 gap-10'>
 
                 <div>
                     <img src={footerLogo} alt="" />

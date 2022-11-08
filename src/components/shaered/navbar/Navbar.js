@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from './navImage/logo.png'
+import logo from './navImage/logo_white.png'
 import { AiOutlineShoppingCart } from 'react-icons/ai'
 import { AiOutlineSearch } from 'react-icons/ai'
 
@@ -9,7 +9,7 @@ import { AiOutlineSearch } from 'react-icons/ai'
 const Navbar = () => {
     return (
         <div>
-            <div className="navbar bg-zinc-500 p-[1.4rem]">
+            <div className="navbar bg-[#FA471C] p-[1.4rem]">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -17,29 +17,10 @@ const Navbar = () => {
                         </label>
                         <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 w-[12rem] md:w-[16rem]">
                             <li><Link className='text-stone-700 text-[1.2rem] hover:text-[#FA471C] font-normal' to="/">HOME</Link></li>
+                            <hr /> 
+
+                            <li><Link className='text-stone-700 text-[1.2rem] hover:text-[#FA471C] font-normal' to="/">PAGES</Link></li>
                             <hr />
-
-
-                            <li tabIndex={0}>
-                                <a className="justify-between">
-                                    <Link className='text-stone-700 text-[1.2rem] hover:text-[#FA471C] font-normal' to="/">PAGES</Link>
-                                    <hr />
-                                    <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24" ><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
-                                </a>
-                                <ul className="p-2">
-                                    <li>
-                                        <Link className='hover:text-[#FA471C]' to="">About Us</Link>
-                                        <hr />
-                                        <Link className='hover:text-[#FA471C]' to="">About Me</Link>
-                                        <hr />
-                                        <Link className='hover:text-[#FA471C]' to="">Our Process</Link>
-                                        <hr />
-                                        <Link className='hover:text-[#FA471C]' to="">Contact Us</Link>
-                                    </li>
-
-                                </ul>
-                            </li>
-
 
 
                         </ul>
@@ -51,22 +32,11 @@ const Navbar = () => {
 
                 <div className="dropdown dropdown-hover navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal p-0">
-                        <li><Link className='text-white hover:text-[#FA471C] font-bold' to="/">HOME</Link></li>
+                        <li><Link className='text-white hover:text-zinc-300 font-bold' to="/">HOME</Link></li>
+                        
+                        <li><Link className='text-white hover:text-zinc-300 font-bold' to="/">PAGES</Link></li>
 
 
-                        <li tabIndex={0}>
-                            <a>
-                                <span className='text-white hover:text-[rgb(250,71,28)] font-bold'>PAGES</span>
-                            </a>
-                            <ul className="p-2 bg-stone-900 bg-opacity-50 border-t-2 border-[#FA471C] p-[1.5rem] pr-[4.4rem]">
-                                <li>
-                                    <Link className='hover:text-white' to="">About Us</Link>
-                                    <Link className='hover:text-white' to="">About Me</Link>
-                                    <Link className='hover:text-white' to="">Our Process</Link>
-                                    <Link className='hover:text-white' to="">Contact Us</Link>
-                                </li>
-                            </ul>
-                        </li>
 
 
                     </ul>
