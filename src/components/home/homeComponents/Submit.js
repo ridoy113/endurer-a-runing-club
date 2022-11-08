@@ -9,7 +9,7 @@ const Submit = () => {
                 <div className='flex-none lg:flex justify-center my-[2rem]'>
                     <div>
                         <input type="text" placeholder="Enter Your Email..." className="bg-[#FA471C] input border-solid border-[1px] border-[#fff] rounded-none text-[#fff]
-                        w-[20rem] h-[3rem] lg:w-[27rem] lg:h-[3.5rem] mx-[1rem]
+                        w-[16rem] h-[3rem] lg:w-[27rem] lg:h-[3.5rem] mx-[1rem]
                         my-[1rem] lg:my-[0rem]" />
                     </div>
 
