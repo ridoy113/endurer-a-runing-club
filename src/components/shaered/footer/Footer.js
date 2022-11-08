@@ -70,7 +70,14 @@ const Footer = () => {
 
                 </div>
 
-                <div>1</div>
+                <div>
+                    <h1 className='text-[1.2rem] font-bold text-white tracking-wide'>OFFICES</h1>
+
+                    <p className='text-[#fff] py-[1.5rem] tracking-wide leading-7'>Lorem ipsum dolor sit amet, consectetur adipi Suspe ultri hendrerit nunc vitae sit.</p>
+
+                    <span><img src={footerMap} alt="" /></span>
+
+                </div>
 
             </div>
         </div>
