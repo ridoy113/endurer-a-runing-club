@@ -3,6 +3,7 @@ import Footer from '../shaered/footer/Footer';
 import AboutUsBanner from './aboutUsSection/AboutUsBanner';
 import AboutUsDeffrance from './aboutUsSection/AboutUsDeffrance';
 import AboutUsSlider from './aboutUsSection/AboutUsSlider';
+import AboutUsTeam from './aboutUsSection/AboutUsTeam';
 
 const AboutUs = () => {
     return (
@@ -10,6 +11,7 @@ const AboutUs = () => {
             <AboutUsBanner />
             <AboutUsSlider/>
             <AboutUsDeffrance/>
+            <AboutUsTeam/>
 
             <Footer />
         </div>
