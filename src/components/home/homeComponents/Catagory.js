@@ -12,7 +12,7 @@ import { ImHourGlass } from 'react-icons/im';
 const Catagory = () => {
     return (
         <div>
-            <div className='py-[3rem] px-[3rem] md:[4rem] md:px-[6rem] lg:py-[5rem] lg:px-[7.5rem] lg:grid grid-cols-3 gap-[1.5rem]'>
+            <div className='py-[3rem] px-[3rem] md:py-[4rem] md:px-[6rem] lg:py-[5rem] lg:px-[7.5rem] lg:grid grid-cols-3 gap-[1.5rem]'>
 
                 <div className='flex py-[2.5rem]'>
                     <p className='text-5xl mr-[1rem] mt-[-0.5rem] text-zinc-400 hover:text-[#f9471c] ease-in duration-300 cursor-pointer	'><GiStarGate /></p>
