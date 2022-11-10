@@ -61,9 +61,7 @@ const Footer = () => {
                         <p className='mr-[0.7rem] text-2xl text-white'><GrTwitter /></p>
 
                         <div className='text-[#fff] tracking-wide leading-7'>
-                            <span className='text-zinc-500 cursor-pointer hover:text-[#FA471C] ease-in duration-300'>@amridoy</span> Hi <span className='text-zinc-500 cursor-pointer hover:text-[#FA471C] ease-in duration-300'>@Google</span> Hey, Thanks for writing in! Please submit a ticket on our and our agents will be… <span className='text-zinc-400 cursor-pointer hover:text-[#FA471C] ease-in duration-300'>https://ridoy-al-mamun.netlify.app/</span>
-
-                            <p className='text-zinc-500 cursor-pointer hover:text-[#FA471C] ease-in duration-300 mt-[0.4rem]'>1 years ago</p>
+                            <span className='text-zinc-500 cursor-pointer hover:text-[#FA471C] ease-in duration-300'>@amridoy</span> Hi <span className='text-zinc-500 cursor-pointer hover:text-[#FA471C] ease-in duration-300'>@Google</span> Hey, Thanks for writing in! Please submit a ticket on our and our agents.
                         </div>
                     </div>
 

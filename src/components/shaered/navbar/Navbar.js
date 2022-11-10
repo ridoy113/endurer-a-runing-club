@@ -17,9 +17,9 @@ const Navbar = () => {
                         </label>
                         <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 w-[12rem] md:w-[16rem]">
                             <li><Link className='text-stone-700 text-[1.2rem] hover:text-[#FA471C] font-normal' to="/">HOME</Link></li>
-                            <hr /> 
+                            <hr />
 
-                            <li><Link className='text-stone-700 text-[1.2rem] hover:text-[#FA471C] font-normal' to="/">PAGES</Link></li>
+                            <li><Link className='text-stone-700 text-[1.2rem] hover:text-[#FA471C] font-normal' to="/aboutUs">ABOUT US</Link></li>
                             <hr />
 
 
@@ -33,8 +33,8 @@ const Navbar = () => {
                 <div className="dropdown dropdown-hover navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal p-0">
                         <li><Link className='text-white hover:text-zinc-300 font-bold' to="/">HOME</Link></li>
-                        
-                        <li><Link className='text-white hover:text-zinc-300 font-bold' to="/">PAGES</Link></li>
+
+                        <li><Link className='text-white hover:text-zinc-300 font-bold' to="/aboutUs">ABOUT US</Link></li>
 
 
 
