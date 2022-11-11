@@ -51,7 +51,7 @@ const OurProcessInfo2 = () => {
 
 
                 <div>
-                    <img src={infoimg2} alt="" />
+                    <img className='w-full h-full' src={infoimg2} alt="" />
                 </div>
 
 

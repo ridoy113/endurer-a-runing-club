@@ -7,7 +7,7 @@ const OurProcessInfo1 = () => {
         <div>
             <div className='grid grid-cols-1 lg:grid lg:grid-cols-2'>
                 <div>
-                    <img src={infoimg1} alt="" />
+                    <img className='w-full h-full' src={infoimg1} alt="" />
                 </div>
 
 
