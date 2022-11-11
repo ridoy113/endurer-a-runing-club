@@ -13,7 +13,7 @@ const OurProcessInfo1 = () => {
 
 
 
-                <div className='px-[6rem] lg:py-[5rem] text-end'>
+                <div className='px-[6rem] py-[5rem] text-end'>
                     <h1 className='text-4xl font-bold text-black tracking-wide'>EASY BEGINNINGS</h1>
 
 
