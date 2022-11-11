@@ -30,7 +30,7 @@ const AboutUsTeam = () => {
                         <p className='mt-[0.7rem] tracking-wider leading-6'>Quam felis ultricies nec, pellentesque eu, pretium quis sem. Nulla tellus consequat et sit amet nibhassa quis enim. Donec pede in justo, fringilla vel aliquet nec et eget arcu. In enim justo rhoncus.</p>
 
                         <div className='flex justify-center text-black hover:text-[#F9461B] cursor-pointer ease-in duration-300 mt-[1.3rem] '>
-                            <h4 className='font-bold tracking-wider mr-[0.3rem] hover:mr-[0.6rem] ease-in duration-300'>READ MORE</h4>
+                            <h4 className='font-bold tracking-wider mr-[0.3rem] hover:mr-[0.6rem] ease-in duration-300'>VIEW MORE</h4>
                             <p className='text-2xl'><AiOutlineArrowRight /></p>
                         </div>
 
@@ -49,18 +49,22 @@ const AboutUsTeam = () => {
                 <div>
                     <img src={teamImg2} alt="" />
 
-
                     <div className='text-center mt-[3rem] pb-[2rem]'>
                         <h1 className='text-3xl font-bold text-[#FA471C]'>TERESA WAGNER</h1>
 
-                        <p className='mt-[0.7rem] tracking-wider leading-6'>Aenean imperdiet est, etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui, etiam rhoncus. Et quam maecenas tempus, tellus eget condimentum rhoncus sem libero.</p>
+                        <p className='mt-[0.7rem] tracking-wider leading-6'>Quam felis ultricies nec, pellentesque eu, pretium quis sem. Nulla tellus consequat et sit amet nibhassa quis enim. Donec pede in justo, fringilla vel aliquet nec et eget arcu. In enim justo rhoncus.</p>
 
                         <div className='flex justify-center text-black hover:text-[#F9461B] cursor-pointer ease-in duration-300 mt-[1.3rem] '>
-                            <h4 className='font-bold tracking-wider mr-[0.3rem] hover:mr-[0.6rem] ease-in duration-300'>READ MORE</h4>
+                            <h4 className='font-bold tracking-wider mr-[0.3rem] hover:mr-[0.6rem] ease-in duration-300'>VIEW MORE</h4>
                             <p className='text-2xl'><AiOutlineArrowRight /></p>
                         </div>
 
                     </div>
+
+
+
+
+
                 </div>
             </div>
 

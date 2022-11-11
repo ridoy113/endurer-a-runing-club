@@ -22,6 +22,9 @@ const Navbar = () => {
                             <li><Link className='text-stone-700 text-[1.2rem] hover:text-[#FA471C] font-normal' to="/aboutUs">ABOUT US</Link></li>
                             <hr />
 
+                            <li><Link className='text-stone-700 text-[1.2rem] hover:text-[#FA471C] font-normal' to="/ourProcess">OUR PROCESS</Link></li>
+                            <hr />
+
 
                         </ul>
                     </div>
@@ -35,6 +38,8 @@ const Navbar = () => {
                         <li><Link className='text-white hover:text-zinc-300 font-bold' to="/">HOME</Link></li>
 
                         <li><Link className='text-white hover:text-zinc-300 font-bold' to="/aboutUs">ABOUT US</Link></li>
+
+                        <li><Link className='text-white hover:text-zinc-300 font-bold' to="/ourProcess">OUR PROCESS</Link></li>
 
 
 
