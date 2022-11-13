@@ -5,6 +5,7 @@ import Home from './components/home/Home';
 import NotFound from './components/shaered/NotFound';
 import AboutUs from './components/aboutUs/AboutUs';
 import OurProcess from './components/ourProcess/OurProcess';
+import ContactUs from './components/contactUs/ContactUs';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/aboutUs" element={<AboutUs/>} />
         <Route path="/ourProcess" element={<OurProcess/>} />
+        <Route path="/contactUs" element={<ContactUs/>} />
 
 
         <Route path="*" element={<NotFound />} />
