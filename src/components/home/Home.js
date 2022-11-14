@@ -22,7 +22,7 @@ const Home = () => {
             <News />
             <MedalLogo />
             <Submit />
-            <Footer/>
+            <Footer />
         </div>
     );
 };
