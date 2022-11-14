@@ -6,6 +6,7 @@ import NotFound from './components/shaered/NotFound';
 import AboutUs from './components/aboutUs/AboutUs';
 import OurProcess from './components/ourProcess/OurProcess';
 import ContactUs from './components/contactUs/ContactUs';
+import Portfolio from './components/portfolio/Portfolio';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/aboutUs" element={<AboutUs/>} />
         <Route path="/ourProcess" element={<OurProcess/>} />
         <Route path="/contactUs" element={<ContactUs/>} />
+        <Route path="/portfolio" element={<Portfolio/>} />
 
 
         <Route path="*" element={<NotFound />} />
