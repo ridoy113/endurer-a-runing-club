@@ -31,7 +31,7 @@ const PortfolioInfo = () => {
 
 
 
-                <div className='grid grid-cols-1 lg:grid lg:grid-cols-3 py-[4rem] gap-8'>
+                <div className='grid grid-cols-1 lg:grid lg:grid-cols-3 py-[4rem] gap-10'>
 
                     <div className='cursor-pointer pb-[4rem]'>
                         <img className='h-full w-full' src={infoImg1} alt="" />
@@ -126,12 +126,16 @@ const PortfolioInfo = () => {
 
 
 
-
-
-
                 </div>
 
 
+
+                <div className='flex justify-center'>
+                    <button className='border-solid border-[1px] border-[#FA471C] w-[10.5rem] h-[3rem] lg:w-[12rem] lg:h-[3.5rem] hover:w-[11rem] hover:h-[3.2rem] hover:lg:w-[12.5rem] hover:lg:h-[4rem] ease-in-out duration-300'>
+                        <button className='w-[9.9rem] h-[2.4rem] lg:w-[11.5rem] lg:h-[3rem] bg-[#FA471C] text-white font-bold'>BUY THEME</button>
+                    </button>
+
+                </div>
 
 
             </div>
