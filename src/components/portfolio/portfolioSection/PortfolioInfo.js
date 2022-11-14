@@ -16,7 +16,7 @@ import infoImg9 from '../assets/port-1-img-12.jpg';
 const PortfolioInfo = () => {
     return (
         <div>
-            <div className='my-[6rem] px-[3rem] md:px-[5rem] lg:px-[8rem]'>
+            <div className='py-[6rem] px-[3rem] lg:px-[8rem]'>
 
                 <div className='text-center text-2xl md:text-3xl lg:text-5xl font-bold text-[#1B1A18]'>
                     OUR ALL PORTFOLIO FOR CONSUMER
@@ -29,23 +29,106 @@ const PortfolioInfo = () => {
 
 
 
-                <div className='grid grid-cols-1 lg:grid lg:grid-cols-3 my-[4rem] gap-10'>
 
-                    <div className='cursor-pointer'>
+
+                <div className='grid grid-cols-1 lg:grid lg:grid-cols-3 py-[4rem] gap-8'>
+
+                    <div className='cursor-pointer pb-[4rem]'>
                         <img className='h-full w-full' src={infoImg1} alt="" />
+                        <h1 className='text-2xl text-black font-bold mt-[1rem]'>
+                            RIGHT WAY
+                        </h1>
 
-                        <div className='mt-[1.5rem]'>
-                            <h1 className='text-2xl text-black font-bold'>RIGHT WAY</h1>
+                        <p className='text-zinc-400 font-semibold mt-[0.5rem] hover:text-[#FA471C] ease-in duration-300 '>
+                            RACE - RECREATION
+                        </p>
+                    </div>
+                    <div className='cursor-pointer pb-[4rem]'>
+                        <img className='h-full w-full' src={infoImg2} alt="" />
+                        <h1 className='text-2xl text-black font-bold mt-[1rem]'>
+                            TRAINING
+                        </h1>
 
-                            <p className='text-zinc-400 font-bold mt-[0.5rem] hover:text-[#FA471C] ease-in duration-300 '>RACE - RECREATION</p>
-                        </div>
+                        <p className='text-zinc-400 font-semibold mt-[0.5rem] hover:text-[#FA471C] ease-in duration-300 '>
+                            RACE - RECREATION
+                        </p>
+                    </div>
+                    <div className='cursor-pointer pb-[4rem]'>
+                        <img className='h-full w-full' src={infoImg3} alt="" />
+                        <h1 className='text-2xl text-black font-bold mt-[1rem]'>
+                            FREE RUN
+                        </h1>
+
+                        <p className='text-zinc-400 font-semibold mt-[0.5rem] hover:text-[#FA471C] ease-in duration-300 '>
+                            RACE - RECREATION
+                        </p>
+                    </div>
+                    <div className='cursor-pointer pb-[4rem]'>
+                        <img className='h-full w-full' src={infoImg4} alt="" />
+                        <h1 className='text-2xl text-black font-bold mt-[1rem]'>
+                            RECREATION
+                        </h1>
+
+                        <p className='text-zinc-400 font-semibold mt-[0.5rem] hover:text-[#FA471C] ease-in duration-300 '>
+                            RACE - RUNNING
+                        </p>
+                    </div>
+                    <div className='cursor-pointer pb-[4rem]'>
+                        <img className='h-full w-full' src={infoImg5} alt="" />
+                        <h1 className='text-2xl text-black font-bold mt-[1rem]'>
+                            BEGINNING
+                        </h1>
+
+                        <p className='text-zinc-400 font-semibold mt-[0.5rem] hover:text-[#FA471C] ease-in duration-300 '>
+                            RACE - RUNNING
+                        </p>
+                    </div>
+                    <div className='cursor-pointer pb-[4rem]'>
+                        <img className='h-full w-full' src={infoImg6} alt="" />
+                        <h1 className='text-2xl text-black font-bold mt-[1rem]'>
+                            BEST TEAM
+                        </h1>
+
+                        <p className='text-zinc-400 font-semibold mt-[0.5rem] hover:text-[#FA471C] ease-in duration-300 '>
+                            RACE - RUNNING
+                        </p>
+                    </div>
+                    <div className='cursor-pointer pb-[4rem]'>
+                        <img className='h-full w-full' src={infoImg7} alt="" />
+                        <h1 className='text-2xl text-black font-bold mt-[1rem]'>
+                            STRENGTH
+                        </h1>
+
+                        <p className='text-zinc-400 font-semibold mt-[0.5rem] hover:text-[#FA471C] ease-in duration-300 '>
+                            RACE - SPORT
+                        </p>
+                    </div>
+                    <div className='cursor-pointer pb-[4rem]'>
+                        <img className='h-full w-full' src={infoImg8} alt="" />
+                        <h1 className='text-2xl text-black font-bold mt-[1rem]'>
+                            BE STRONGER
+                        </h1>
+
+                        <p className='text-zinc-400 font-semibold mt-[0.5rem] hover:text-[#FA471C] ease-in duration-300 '>
+                            RACE - SPORT
+                        </p>
+                    </div>
+                    <div className='cursor-pointer pb-[4rem]'>
+                        <img className='h-full w-full' src={infoImg9} alt="" />
+                        <h1 className='text-2xl text-black font-bold mt-[1rem]'>
+                            RIGHT STAMINA
+                        </h1>
+
+                        <p className='text-zinc-400 font-semibold mt-[0.5rem] hover:text-[#FA471C] ease-in duration-300 '>
+                            RACE - SPORT
+                        </p>
                     </div>
 
 
 
 
 
-                    
+
                 </div>
 
 
